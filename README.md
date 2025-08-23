@@ -1,4 +1,5 @@
 ## Hi there 👋
+![snake](https://raw.githubusercontent.com/仓库名/仓库名/output/github-contribution-grid-snake.svg)
 
 <!--
 **jiran-1111/jiran-1111** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
