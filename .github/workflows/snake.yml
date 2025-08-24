@@ -26,9 +26,10 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          grid_chars: "█▓▒░"
-          year: "2022,2023,2024"  # 包含2022-2024年的贡献，格子更多
-          contribution_type: "commit,issue,pull_request,pull_request_review,discussion"
+          include_private: true
+          grid_chars: "█▓▒░▁▂▃▄▅▆"
+          year: "2022,2023,2024,2025"  # 包含2022-2024年的贡献，格子更多
+          contribution_type: "commit,issue,pull_request,pull_request_review,discussion,wiki_edit,release,repo"
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
